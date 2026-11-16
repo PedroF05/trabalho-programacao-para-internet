@@ -28,7 +28,6 @@ export function Input({
         <input
             type={type}
             id={id}
-            aria-invalid={!!error}
             {...register(id)}
             className={`block w-full p-5 text-base font-poppins-regular ${roundedClass} focus:outline-none
                 ${error

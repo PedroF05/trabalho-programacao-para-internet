@@ -3,9 +3,9 @@
 @theme {
   --color-another-purple: oklch(0.649 0.19 294.09);
   --color-background: oklch(0.9571 0.0093 286.22);
-  --color-purple: oklch(57.75% 0.205 292.79);
+  --color-purple: #8257E5;
   --color-dark-purple: oklch(49.53% 0.189 291.62);
-  --color-green: oklch(75.76% 0.209 149.71);
+  --color-green: #04D361;
   --color-another-green: oklch(83.65% 0.214 151.87);
   --color-gray-lines-in-white: oklch(92.78% 0.013 286.13);
   --color-gray-hover: oklch(94.30% 0.013 286.14);

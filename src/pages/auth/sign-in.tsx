@@ -86,12 +86,12 @@ export function SignIn() {
                                 </span>
                             </label>
 
-                            <Link
-                                to="/forgot-password"
+                            <button
+                                type='button'
                                 className='font-poppins-regular font-base text-text-complement cursor-pointer'
                             >
                                 Esqueci minha senha
-                            </Link>
+                            </button>
                         </div>
                         <Button
                             type="submit"
