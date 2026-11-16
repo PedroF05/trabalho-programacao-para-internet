@@ -2,13 +2,19 @@ import { createBrowserRouter } from 'react-router'
 import { SignIn } from './pages/auth/sign-in'
 import { SignUp } from './pages/auth/sign-up'
 import { FinallyRegister } from './pages/auth/finally-register'
-import { ForgotPassword } from './pages/auth/forgot-password'
-import { FinallyForgotPassword } from './pages/auth/finally-forgot-password'
+import { Home } from './pages/app/home'
+import { TeacherList } from './pages/app/teacher-list'
+import { TeacherForms } from './pages/app/teacher-forms'
+import { TeacherFormsCompleted } from './pages/app/teacher-forms-completed'
+import { TeacherProfile } from './pages/app/teacher-profile'
 
 export const router = createBrowserRouter([
     { path: '/sign-in', element: <SignIn /> },
     { path: '/sign-up', element: <SignUp /> },
     { path: '/sign-up/finally-register', element: <FinallyRegister /> },
-    { path: '/forgot-password', element: <ForgotPassword /> },
-    { path: '/forgot-password/finally-forgot-password', element: <FinallyForgotPassword /> }
+    { path: '/', element: <Home /> },
+    { path: '/study', element: <TeacherList />},
+    { path: '/give-classes', element: <TeacherForms /> },
+    { path: '/give-classes/completed', element: <TeacherFormsCompleted /> },
+    { path: '/profile', element: <TeacherProfile /> }
 ])
